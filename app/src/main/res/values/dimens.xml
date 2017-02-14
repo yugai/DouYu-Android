@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="app_bar_elevation">4dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="margin_search">48dip</dimen>
+
+    <dimen name="drawer_width">304dp</dimen>
+
+    <dimen name="fragment_toolbar_height">48dip</dimen>
+    <dimen name="spacing_normal">8dp</dimen>
+
+    <dimen name="controller_widget_size">40dp</dimen>
+    <dimen name="controller_widget_padding">5dp</dimen>
+    <dimen name="controller_stroke_width">0.5dp</dimen>
+    <dimen name="controller_normal_corner_radius">1dp</dimen>
+    <dimen name="controller_danmu_corner_radius">5dp</dimen>
+
+
+    <dimen name="drag_dismiss_distance">112dp</dimen>
+</resources>

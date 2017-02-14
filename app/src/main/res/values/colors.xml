@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333333</color><!--toolbar-->
+    <color name="colorPrimaryDark">#393939</color><!--状态栏-->
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="splashBackground">#3dbef1</color>
+
+    <color name="bg_255_255_255">#ffffff</color>
+
+    <color name="background_dark">#ff333333</color>
+    <color name="scrim">#99323232</color>
+
+    <color name="item_click_true">#eeeeee</color>
+    <color name="item_click_false">#ffffff</color>
+
+    <color name="color_primary">#00BCD4</color>
+    <color name="color_primary_dark">#0097A7</color>
+    <color name="color_primary_light">#B2EBF2</color>
+    <color name="color_accent">#ffc107</color>
+    <color name="color_primary_text">#212121</color>
+    <color name="color_secondary_text">#757575</color>
+    <color name="color_icons">#FFFFFF</color>
+    <color name="color_divider">#BDBDBD</color>
+    <color name="color_layout_background">#f3f6f5</color>
+    <color name="color_error">#ff4182</color>
+    <color name="color_tab_pressed">#00BCD4</color>
+    <color name="color_tab_normal">#757575</color>
+    <color name="color_tab_pressed_dark">#FFFFFF</color>
+    <color name="color_tab_normal_dark">#B2EBF2</color>
+    <color name="page_indicator_dark">#80333333</color>
+    <color name="page_indicator_dark_selected">#ff333333</color>
+
+    <array name="tab_colors">
+        <item name="tab_1">#455C65</item>
+        <item name="tab_2">#00886A</item>
+        <item name="tab_3">#8B6B62</item>
+        <item name="tab_4">#6C4A42</item>
+        <item name="tab_5">#F63D2B</item>
+    </array>
+</resources>

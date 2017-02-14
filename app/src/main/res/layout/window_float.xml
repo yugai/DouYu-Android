@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rv_float"
+        android:layout_width="160dip"
+        android:layout_height="90dip"
+        android:layout_centerInParent="true"
+        android:background="@color/color_primary_dark">
+
+        <com.mayi.douyu.ijkplayer.widget.media.IjkVideoView
+            android:id="@+id/ijk_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.mayi.douyu.ijkplayer.widget.media.IjkVideoView>
+
+        <ImageView
+            android:id="@+id/iv_zoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_texture_black_24dp"/>
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_clear_black_24dp"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <com.mayi.douyu.ijkplayer.widget.media.IjkVideoView
+        android:id="@+id/ijk_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.mayi.douyu.ijkplayer.widget.media.IjkVideoView>
+
+    <RelativeLayout
+        android:id="@+id/layout_portrait"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dip"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_back_portrait"
+            android:layout_width="@dimen/controller_widget_size"
+            android:layout_height="@dimen/controller_widget_size"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/background_iv_circle"
+            android:padding="@dimen/controller_widget_padding"
+            android:scaleType="centerCrop"
+            android:src="@drawable/selector_btn_back"/>
+
+        <ImageView
+            android:id="@+id/iv_fullscreen_portrait"
+            android:layout_width="@dimen/controller_widget_size"
+            android:layout_height="@dimen/controller_widget_size"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/background_iv_circle"
+            android:padding="@dimen/controller_widget_padding"
+            android:scaleType="centerCrop"
+            android:src="@drawable/selector_btn_fullscreen"/>
+
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="@dimen/controller_widget_size"
+            android:layout_height="@dimen/controller_widget_size"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/background_iv_circle"
+            android:padding="@dimen/controller_widget_padding"
+            android:scaleType="centerCrop"
+            android:src="@drawable/selector_btn_refresh"/>
+
+        <ImageView
+            android:id="@+id/iv_danmu_visible_portrait"
+            android:layout_width="@dimen/controller_widget_size"
+            android:layout_height="@dimen/controller_widget_size"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/background_iv_circle"
+            android:padding="8.5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/selector_btn_danmu_on"/>
+    </RelativeLayout>
+</FrameLayout>
